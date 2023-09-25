@@ -35,13 +35,13 @@ const CONFIG = {
 
   // plugin configuration (optional)
   googleAnalytics: {
-    enable: false,
+    enable: true,
     config: {
       measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
     },
   },
   googleSearchConsole: {
-    enable: false,
+    enable: true,
     config: {
       siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
     },
@@ -49,9 +49,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo:
-        // process.env.NEXT_PUBLIC_UTTERANCES_REPO ||
-        "mizzu-creations/morethan-log-comments",
+      repo: "mizzu-creations/morethan-log-comments",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
