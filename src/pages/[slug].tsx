@@ -11,6 +11,7 @@ import { queryKey } from "src/constants/queryKey"
 import { dehydrate } from "@tanstack/react-query"
 import usePostQuery from "src/hooks/usePostQuery"
 import { FilterPostsOptions } from "src/libs/utils/notion/filterPosts"
+import Utterances from "src/routes/Detail/PostDetail/CommentBox/Utterances"
 
 const filter: FilterPostsOptions = {
   acceptStatus: ["Public", "PublicOnDetail"],
@@ -76,6 +77,7 @@ const DetailPage: NextPageWithLayout = () => {
     <>
       <MetaConfig {...meta} />
       <Detail />
+      <Utterances issueTerm={meta.url} />
     </>
   )
 }
