@@ -33,7 +33,7 @@ const Code = dynamic(() =>
       // import("prismjs/components/prism-docker.js"),
       // import("prismjs/components/prism-java.js"),
       import("prismjs/components/prism-js-templates.js"),
-      import("prismjs/components/prism-coffeescript.js"),
+      // import("prismjs/components/prism-coffeescript.js"),
       import("prismjs/components/prism-diff.js"),
       import("prismjs/components/prism-git.js"),
       // import("prismjs/components/prism-go.js"),
@@ -60,8 +60,6 @@ const Code = dynamic(() =>
     return m.Code
   })
 )
-
-console.log(Code)
 
 const Collection = dynamic(() =>
   import("react-notion-x/build/third-party/collection").then(
