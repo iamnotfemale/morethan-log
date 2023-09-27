@@ -56,7 +56,6 @@ const Code = dynamic(() =>
       import("prismjs/components/prism-wasm.js"),
       import("prismjs/components/prism-yaml.js"),
     ])
-    console.log(m.Code)
     return m.Code
   })
 )
@@ -92,6 +91,7 @@ type Props = {
 
 const NotionRenderer: FC<Props> = ({ recordMap }) => {
   const [scheme] = useScheme()
+  console.log(Code)
   return (
     <StyledWrapper>
       <_NotionRenderer
