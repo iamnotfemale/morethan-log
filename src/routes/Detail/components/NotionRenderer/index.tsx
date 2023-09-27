@@ -56,6 +56,7 @@ const Code = dynamic(() =>
       import("prismjs/components/prism-wasm.js"),
       import("prismjs/components/prism-yaml.js"),
     ])
+    console.log(m.Code)
     return m.Code
   })
 )
