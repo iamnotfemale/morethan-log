@@ -43,6 +43,13 @@ const CONFIG = {
       siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
     },
   },
+  googleAdsense: {
+    enable: true,
+    config: {
+      accountContent:
+        process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ACCOUNT_CONTENT || "",
+    },
+  },
   naverSearchAdvisor: {
     enable: false,
     config: {

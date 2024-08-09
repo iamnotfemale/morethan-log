@@ -36,6 +36,13 @@ const MetaConfig: React.FC<MetaConfigProps> = (props) => {
           <meta property="article:author" content={CONFIG.profile.name} />
         </>
       )}
+      {/* google adsense */}
+      {CONFIG?.googleAdsense?.enable === true && (
+        <meta
+          name="google-adsense-account"
+          content={CONFIG.googleAdsense.config.accountContent}
+        ></meta>
+      )}
     </Head>
   )
 }
