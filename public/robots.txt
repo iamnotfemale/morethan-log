@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://mizzu-log.vercel.app/sitemap.xml
+Sitemap: https://www.mizzu-creations.xyz/sitemap.xml

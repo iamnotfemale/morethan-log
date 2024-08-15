@@ -1,11 +1,6 @@
 import { CONFIG } from "site.config"
 import React from "react"
-import {
-  AiOutlineInstagram,
-  AiOutlineGithub,
-  AiOutlineMail,
-  AiFillLinkedin,
-} from "react-icons/ai"
+import { AiOutlineGithub, AiOutlineMail } from "react-icons/ai"
 import styled from "@emotion/styled"
 
 const ContactCard: React.FC = () => {
@@ -21,6 +16,17 @@ const ContactCard: React.FC = () => {
           >
             <AiOutlineGithub className="icon" />
             <div className="name">github</div>
+          </a>
+        )}
+        {CONFIG.profile.email && (
+          <a
+            href={`mailto:${CONFIG.profile.email}`}
+            rel="noreferrer"
+            target="_blank"
+            css={{ overflow: "hidden" }}
+          >
+            <AiOutlineMail className="icon" />
+            <div className="name">mizzu.creations@gmail.com</div>
           </a>
         )}
       </StyledWrapper>
