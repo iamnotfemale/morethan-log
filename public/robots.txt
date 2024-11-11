@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://www.mizzu-creations.xyz/sitemap.xml
-# Last modified: 2024-11-12 12:11
