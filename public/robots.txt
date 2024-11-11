@@ -1,6 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Sitemaps
-Sitemap: https://www.mizzu-creations.xyz/sitemap.xml
