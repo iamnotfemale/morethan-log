@@ -1,3 +1,7 @@
 {
-  "rewrites": [{ "source": "/robots.txt", "destination": "/404" }]
+  "build": {
+    "env": {
+      "VERCEL_CACHE": "false"
+    }
+  }
 }
