@@ -37,15 +37,6 @@ class MyDocument extends Document {
               />
             </>
           )}
-          {/* google adsense */}
-          {CONFIG.googleAdsense.enable === true && (
-            <>
-              <meta
-                name="google-adsense-account"
-                content={CONFIG.googleAdsense.config.accountContent}
-              ></meta>
-            </>
-          )}
           {/* naver search advisor */}
           {CONFIG.naverSearchAdvisor.enable === true && (
             <>
