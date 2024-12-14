@@ -18,6 +18,7 @@ const CONFIG = {
   blog: {
     title: "mizzu-creations",
     description: "welcome to mizzu-creations!",
+    scheme: "dark", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
