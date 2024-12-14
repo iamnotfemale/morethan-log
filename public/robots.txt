@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://mizzu-creations.vercel.app/
+
+# Sitemaps
+Sitemap: https://mizzu-creations.vercel.app/sitemap.xml

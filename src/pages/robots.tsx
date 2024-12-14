@@ -6,7 +6,7 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
   res.setHeader("Content-Type", "text/plain")
   res.write(`User-agent: *
 Allow: /
-Sitemap: https://www.mizzu-creations.xyz/sitemap.xml`)
+Sitemap: https://mizzu-creations.vercel.app/sitemap.xml`)
   res.end()
   return {
     props: {},
