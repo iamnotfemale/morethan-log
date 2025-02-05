@@ -23,7 +23,7 @@ const CONFIG = {
 
   // CONFIG configration (required)
   link: "https://mizzu-creations.vercel.app/",
-  since: 2023, // If leave this empty, current year will be used.
+  since: 2025, // If leave this empty, current year will be used.
   lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL:
     "https://og-image-korean.vercel.app/mizzu-creations.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-bw-logo.svg&widths=&heights=", // The link to generate OG image, don't end with a slash
