@@ -12,14 +12,14 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `blog`,
+      name: `Naver blog`,
       href: "https://blog.naver.com/iamnotfemale",
     },
   ],
   // blog setting (required)
   blog: {
     title: "yeo.zip.hab",
-    description: "welcome to morethan-log!",
+    description: "환영합니다",
     scheme: "dark", // 'light' | 'dark' | 'system'
   },
 
